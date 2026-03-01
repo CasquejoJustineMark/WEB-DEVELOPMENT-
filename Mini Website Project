@@ -1,0 +1,147 @@
+Index.html (Home Page)
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - My Website</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Welcome to My Website</h1>
+    <p>This is my index page where I introduce myself and showcase a previous activity.</p>
+    
+    <h3>My Profile</h3>
+    <img src="my-picture.jpg" alt="A picture of me" width="300">
+
+    <h3>Hear about this page:</h3>
+    <audio controls>
+        <source src="index-explanation.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Previous Activity Video:</h3>
+    <video width="400" controls>
+        <source src="previous-activity.mp4" type="video/mp4">
+    </video>
+
+    <p>Check out my <a href="https://github.com" target="_blank">External Link (GitHub)</a>.</p>
+</body>
+</html> 
+about.html (Hobbies & Interests)
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About - My Hobbies</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>About Me & My Hobbies</h1>
+    <p>On this page, I share what I love doing in my free time and my favorite movie genre.</p>
+
+    <h3>My Favorite Hobby</h3>
+    <img src="hobby.jpg" alt="My hobby" width="300">
+
+    <h3>Audio Description:</h3>
+    <audio controls>
+        <source src="about-explanation.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>Sci-Fi Movie Trailer:</h3>
+    <video width="400" controls>
+        <source src="scifi-movie.mp4" type="video/mp4">
+    </video>
+
+    <p>Visit <a href="https://www.imdb.com" target="_blank">IMDb</a> for movie ratings.</p>
+</body>
+</html>
+contact.html (Favorite Place & IT Life)
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact - My World</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About Me</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact & Favorites</h1>
+    <p>This page shows my favorite destination and a glimpse into the life of an IT student.</p>
+
+    <h3>My Favorite Place</h3>
+    <img src="favorite-place.jpg" alt="A beautiful place" width="300">
+
+    <h3>Explanation Audio:</h3>
+    <audio controls>
+        <source src="contact-explanation.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>IT Student Life (Reel):</h3>
+    <video width="300" height="500" controls>
+        <source src="it-student-life.mp4" type="video/mp4">
+    </video>
+
+    <p>Connect with me on <a href="https://linkedin.com" target="_blank">LinkedIn</a>.</p>
+</body>
+</html>
+ index.html (Home Page with your Video)
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - My Website</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background-color: #f4f4f4; }
+        nav { background: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .content-box { background: white; padding: 20px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        video, img { border-radius: 5px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content-box">
+        <h1>Welcome to My Website</h1>
+        <p>This is my index page where I introduce myself and showcase a previous activity regarding multimedia and web development.</p>
+        
+        <h3>My Profile</h3>
+        <img src="my-picture.jpg" alt="A picture of me" width="300">
+
+        <h3>Page Audio Guide:</h3>
+        <audio controls>
+            <source src="index-explanation.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Previous Activity: Multimedia Representation</h3>
+        <video width="100%" height="auto" controls>
+            <source src="download_20260226_225218_0000.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <p>Find more of my work on <a href="https://github.com" target="_blank">GitHub</a>.</p>
+    </div>
+
+</body>
+</html>
